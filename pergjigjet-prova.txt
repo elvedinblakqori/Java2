@@ -1,0 +1,11 @@
+1. fillon te rreshti:
+var tarifa = switch (automjeti) {
+
+2.Te kontrollimi i llojit te automjetit:
+if (!automjeti.equals("M") && !automjeti.equals("A")
+        && !automjeti.equals("K") && !automjeti.equals("E")) {
+
+
+
+3.Shtuam automjetin elektrik E në kontrollimin e inputit dhe në switch. Gjithashtu shtuam tarifën:
+case "E" -> 0.80;
